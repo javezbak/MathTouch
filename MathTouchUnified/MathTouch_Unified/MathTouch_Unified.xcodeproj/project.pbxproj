@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E2A79D46597E368EB86A7EE /* libPods-MathTouch_Unified.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FA696EC1CA47B4D84A3421 /* libPods-MathTouch_Unified.a */; };
+		C814B035209E22BB003DA008 /* libiosMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C814B034209E22BB003DA008 /* libiosMath.a */; };
+		C8C22677207EA28900811EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C22676207EA28900811EB6 /* AppDelegate.swift */; };
+		C8C22679207EA28900811EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C22678207EA28900811EB6 /* ViewController.swift */; };
+		C8C2267C207EA28900811EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2267A207EA28900811EB6 /* Main.storyboard */; };
+		C8C2267E207EA28900811EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2267D207EA28900811EB6 /* Assets.xcassets */; };
+		C8C22681207EA28900811EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2267F207EA28900811EB6 /* LaunchScreen.storyboard */; };
+		C8C2268C207EA28900811EB6 /* MathTouch_UnifiedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2268B207EA28900811EB6 /* MathTouch_UnifiedTests.swift */; };
+		C8C22697207EA28900811EB6 /* MathTouch_UnifiedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C22696207EA28900811EB6 /* MathTouch_UnifiedUITests.swift */; };
+		C8C226A5207EA2CE00811EB6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C8C226A4207EA2CE00811EB6 /* Podfile */; };
+		FB2416C82093F03500487F0C /* NRFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2416C72093F03500487F0C /* NRFManager.swift */; };
+		FB2416CA2094081300487F0C /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2416C92094081300487F0C /* TableTableViewController.swift */; };
+		FB7B50B12095097C00E142B9 /* TableViewLatexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B50B02095097C00E142B9 /* TableViewLatexCell.swift */; };
+		FBBF2E61208C3D030034E07E /* MyCertificate.c in Sources */ = {isa = PBXBuildFile; fileRef = FBBF2E60208C3D030034E07E /* MyCertificate.c */; };
+		FBE390052092795A00A5424E /* recognition-assets in Resources */ = {isa = PBXBuildFile; fileRef = FBE390042092795A00A5424E /* recognition-assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8C22688207EA28900811EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C2266B207EA28900811EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C22672207EA28900811EB6;
+			remoteInfo = MathTouch_Unified;
+		};
+		C8C22693207EA28900811EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C2266B207EA28900811EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C22672207EA28900811EB6;
+			remoteInfo = MathTouch_Unified;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29FA696EC1CA47B4D84A3421 /* libPods-MathTouch_Unified.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathTouch_Unified.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C814B032209E226E003DA008 /* libiosMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libiosMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C814B034209E22BB003DA008 /* libiosMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libiosMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C22673207EA28900811EB6 /* MathTouch_Unified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTouch_Unified.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C22676207EA28900811EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8C22678207EA28900811EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8C2267B207EA28900811EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8C2267D207EA28900811EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8C22680207EA28900811EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8C22682207EA28900811EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C22687207EA28900811EB6 /* MathTouch_UnifiedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTouch_UnifiedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C2268B207EA28900811EB6 /* MathTouch_UnifiedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTouch_UnifiedTests.swift; sourceTree = "<group>"; };
+		C8C2268D207EA28900811EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C22692207EA28900811EB6 /* MathTouch_UnifiedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTouch_UnifiedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C22696207EA28900811EB6 /* MathTouch_UnifiedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTouch_UnifiedUITests.swift; sourceTree = "<group>"; };
+		C8C22698207EA28900811EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C226A4207EA2CE00811EB6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5148C4AEA2465D83D958C9E /* Pods-MathTouch_Unified.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTouch_Unified.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathTouch_Unified/Pods-MathTouch_Unified.release.xcconfig"; sourceTree = "<group>"; };
+		E2D9F2C5688C4EBD992C732D /* Pods-MathTouch_Unified.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTouch_Unified.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathTouch_Unified/Pods-MathTouch_Unified.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2416C72093F03500487F0C /* NRFManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRFManager.swift; sourceTree = "<group>"; };
+		FB2416C92094081300487F0C /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		FB7B50B02095097C00E142B9 /* TableViewLatexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLatexCell.swift; sourceTree = "<group>"; };
+		FBBF2E60208C3D030034E07E /* MyCertificate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyCertificate.c; sourceTree = "<group>"; };
+		FBE390042092795A00A5424E /* recognition-assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "recognition-assets"; sourceTree = "<group>"; };
+		FBEF61F3208C3E300042BA55 /* MyCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCertificate.h; path = MathTouch_Unified/MyScriptCertificate/MyCertificate.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C22670207EA28900811EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C814B035209E22BB003DA008 /* libiosMath.a in Frameworks */,
+				6E2A79D46597E368EB86A7EE /* libPods-MathTouch_Unified.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C22684207EA28900811EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2268F207EA28900811EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36034D39D7BAFF539C5804E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9F2C5688C4EBD992C732D /* Pods-MathTouch_Unified.debug.xcconfig */,
+				D5148C4AEA2465D83D958C9E /* Pods-MathTouch_Unified.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCE7E74F9016A044A6CC2FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C814B034209E22BB003DA008 /* libiosMath.a */,
+				C814B032209E226E003DA008 /* libiosMath.a */,
+				29FA696EC1CA47B4D84A3421 /* libPods-MathTouch_Unified.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C2266A207EA28900811EB6 = {
+			isa = PBXGroup;
+			children = (
+				FB3DA353208BB533002CE4F0 /* MyScriptCertificate */,
+				C8C226A4207EA2CE00811EB6 /* Podfile */,
+				C8C22675207EA28900811EB6 /* MathTouch_Unified */,
+				C8C2268A207EA28900811EB6 /* MathTouch_UnifiedTests */,
+				C8C22695207EA28900811EB6 /* MathTouch_UnifiedUITests */,
+				C8C22674207EA28900811EB6 /* Products */,
+				36034D39D7BAFF539C5804E9 /* Pods */,
+				BCE7E74F9016A044A6CC2FE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C22674207EA28900811EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C22673207EA28900811EB6 /* MathTouch_Unified.app */,
+				C8C22687207EA28900811EB6 /* MathTouch_UnifiedTests.xctest */,
+				C8C22692207EA28900811EB6 /* MathTouch_UnifiedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C22675207EA28900811EB6 /* MathTouch_Unified */ = {
+			isa = PBXGroup;
+			children = (
+				FBE390032092791A00A5424E /* Resources */,
+				FB3DA356208BB613002CE4F0 /* Classes */,
+				C8C22676207EA28900811EB6 /* AppDelegate.swift */,
+				C8C22678207EA28900811EB6 /* ViewController.swift */,
+				FB2416C92094081300487F0C /* TableTableViewController.swift */,
+				FB7B50B02095097C00E142B9 /* TableViewLatexCell.swift */,
+				FB2416C72093F03500487F0C /* NRFManager.swift */,
+				C8C2267A207EA28900811EB6 /* Main.storyboard */,
+				C8C2267D207EA28900811EB6 /* Assets.xcassets */,
+				C8C2267F207EA28900811EB6 /* LaunchScreen.storyboard */,
+				C8C22682207EA28900811EB6 /* Info.plist */,
+			);
+			path = MathTouch_Unified;
+			sourceTree = "<group>";
+		};
+		C8C2268A207EA28900811EB6 /* MathTouch_UnifiedTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2268B207EA28900811EB6 /* MathTouch_UnifiedTests.swift */,
+				C8C2268D207EA28900811EB6 /* Info.plist */,
+			);
+			path = MathTouch_UnifiedTests;
+			sourceTree = "<group>";
+		};
+		C8C22695207EA28900811EB6 /* MathTouch_UnifiedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C22696207EA28900811EB6 /* MathTouch_UnifiedUITests.swift */,
+				C8C22698207EA28900811EB6 /* Info.plist */,
+			);
+			path = MathTouch_UnifiedUITests;
+			sourceTree = "<group>";
+		};
+		FB3DA353208BB533002CE4F0 /* MyScriptCertificate */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF61F3208C3E300042BA55 /* MyCertificate.h */,
+				FBBF2E60208C3D030034E07E /* MyCertificate.c */,
+			);
+			path = MyScriptCertificate;
+			sourceTree = "<group>";
+		};
+		FB3DA356208BB613002CE4F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FBE390032092791A00A5424E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBE390042092795A00A5424E /* recognition-assets */,
+			);
+			name = Resources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C22672207EA28900811EB6 /* MathTouch_Unified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C2269B207EA28900811EB6 /* Build configuration list for PBXNativeTarget "MathTouch_Unified" */;
+			buildPhases = (
+				0587C89850273E2C0D5437EA /* [CP] Check Pods Manifest.lock */,
+				C8C2266F207EA28900811EB6 /* Sources */,
+				C8C22670207EA28900811EB6 /* Frameworks */,
+				C8C22671207EA28900811EB6 /* Resources */,
+				6D4BD9C3F949BE629FB6BC31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTouch_Unified;
+			productName = MathTouch_Unified;
+			productReference = C8C22673207EA28900811EB6 /* MathTouch_Unified.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8C22686207EA28900811EB6 /* MathTouch_UnifiedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C2269E207EA28900811EB6 /* Build configuration list for PBXNativeTarget "MathTouch_UnifiedTests" */;
+			buildPhases = (
+				C8C22683207EA28900811EB6 /* Sources */,
+				C8C22684207EA28900811EB6 /* Frameworks */,
+				C8C22685207EA28900811EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C22689207EA28900811EB6 /* PBXTargetDependency */,
+			);
+			name = MathTouch_UnifiedTests;
+			productName = MathTouch_UnifiedTests;
+			productReference = C8C22687207EA28900811EB6 /* MathTouch_UnifiedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8C22691207EA28900811EB6 /* MathTouch_UnifiedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C226A1207EA28900811EB6 /* Build configuration list for PBXNativeTarget "MathTouch_UnifiedUITests" */;
+			buildPhases = (
+				C8C2268E207EA28900811EB6 /* Sources */,
+				C8C2268F207EA28900811EB6 /* Frameworks */,
+				C8C22690207EA28900811EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C22694207EA28900811EB6 /* PBXTargetDependency */,
+			);
+			name = MathTouch_UnifiedUITests;
+			productName = MathTouch_UnifiedUITests;
+			productReference = C8C22692207EA28900811EB6 /* MathTouch_UnifiedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C2266B207EA28900811EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = B22;
+				TargetAttributes = {
+					C8C22672207EA28900811EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4RN6G5K4D4;
+						ProvisioningStyle = Automatic;
+					};
+					C8C22686207EA28900811EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8C22672207EA28900811EB6;
+					};
+					C8C22691207EA28900811EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8C22672207EA28900811EB6;
+					};
+				};
+			};
+			buildConfigurationList = C8C2266E207EA28900811EB6 /* Build configuration list for PBXProject "MathTouch_Unified" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8C2266A207EA28900811EB6;
+			productRefGroup = C8C22674207EA28900811EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C22672207EA28900811EB6 /* MathTouch_Unified */,
+				C8C22686207EA28900811EB6 /* MathTouch_UnifiedTests */,
+				C8C22691207EA28900811EB6 /* MathTouch_UnifiedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8C22671207EA28900811EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C22681207EA28900811EB6 /* LaunchScreen.storyboard in Resources */,
+				FBE390052092795A00A5424E /* recognition-assets in Resources */,
+				C8C2267E207EA28900811EB6 /* Assets.xcassets in Resources */,
+				C8C226A5207EA2CE00811EB6 /* Podfile in Resources */,
+				C8C2267C207EA28900811EB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C22685207EA28900811EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C22690207EA28900811EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0587C89850273E2C0D5437EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathTouch_Unified-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4BD9C3F949BE629FB6BC31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathTouch_Unified/Pods-MathTouch_Unified-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/iosMath/mathFonts.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mathFonts.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathTouch_Unified/Pods-MathTouch_Unified-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C2266F207EA28900811EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7B50B12095097C00E142B9 /* TableViewLatexCell.swift in Sources */,
+				FB2416CA2094081300487F0C /* TableTableViewController.swift in Sources */,
+				FBBF2E61208C3D030034E07E /* MyCertificate.c in Sources */,
+				C8C22679207EA28900811EB6 /* ViewController.swift in Sources */,
+				C8C22677207EA28900811EB6 /* AppDelegate.swift in Sources */,
+				FB2416C82093F03500487F0C /* NRFManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C22683207EA28900811EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C2268C207EA28900811EB6 /* MathTouch_UnifiedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2268E207EA28900811EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C22697207EA28900811EB6 /* MathTouch_UnifiedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8C22689207EA28900811EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C22672207EA28900811EB6 /* MathTouch_Unified */;
+			targetProxy = C8C22688207EA28900811EB6 /* PBXContainerItemProxy */;
+		};
+		C8C22694207EA28900811EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C22672207EA28900811EB6 /* MathTouch_Unified */;
+			targetProxy = C8C22693207EA28900811EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8C2267A207EA28900811EB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C2267B207EA28900811EB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8C2267F207EA28900811EB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C22680207EA28900811EB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8C22699207EA28900811EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C8C2269A207EA28900811EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8C2269C207EA28900811EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D9F2C5688C4EBD992C732D /* Pods-MathTouch_Unified.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4RN6G5K4D4;
+				INFOPLIST_FILE = MathTouch_Unified/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nyu.MathTouch-Unified";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MathTouch_Unified/MathTouch_Unified-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C8C2269D207EA28900811EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5148C4AEA2465D83D958C9E /* Pods-MathTouch_Unified.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4RN6G5K4D4;
+				INFOPLIST_FILE = MathTouch_Unified/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nyu.MathTouch-Unified";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MathTouch_Unified/MathTouch_Unified-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C8C2269F207EA28900811EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathTouch_UnifiedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nyu.MathTouch-UnifiedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTouch_Unified.app/MathTouch_Unified";
+			};
+			name = Debug;
+		};
+		C8C226A0207EA28900811EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathTouch_UnifiedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nyu.MathTouch-UnifiedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTouch_Unified.app/MathTouch_Unified";
+			};
+			name = Release;
+		};
+		C8C226A2207EA28900811EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MathTouch_UnifiedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nyu.MathTouch-UnifiedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MathTouch_Unified;
+			};
+			name = Debug;
+		};
+		C8C226A3207EA28900811EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MathTouch_UnifiedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nyu.MathTouch-UnifiedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MathTouch_Unified;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C2266E207EA28900811EB6 /* Build configuration list for PBXProject "MathTouch_Unified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C22699207EA28900811EB6 /* Debug */,
+				C8C2269A207EA28900811EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C2269B207EA28900811EB6 /* Build configuration list for PBXNativeTarget "MathTouch_Unified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C2269C207EA28900811EB6 /* Debug */,
+				C8C2269D207EA28900811EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C2269E207EA28900811EB6 /* Build configuration list for PBXNativeTarget "MathTouch_UnifiedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C2269F207EA28900811EB6 /* Debug */,
+				C8C226A0207EA28900811EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C226A1207EA28900811EB6 /* Build configuration list for PBXNativeTarget "MathTouch_UnifiedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C226A2207EA28900811EB6 /* Debug */,
+				C8C226A3207EA28900811EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C2266B207EA28900811EB6 /* Project object */;
+}

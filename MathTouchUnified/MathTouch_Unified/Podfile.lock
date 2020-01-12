@@ -1,0 +1,37 @@
+PODS:
+  - iosMath (0.9.4)
+  - MyScriptInteractiveInk-Runtime (1.1.2)
+  - MyScriptInteractiveInk-UIReferenceImplementation (1.1.2):
+    - MyScriptInteractiveInk-Runtime (~> 1.1.2)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftSocket (2.0.2)
+
+DEPENDENCIES:
+  - iosMath
+  - MyScriptInteractiveInk-UIReferenceImplementation (from `../..`)
+  - SQLite.swift (~> 0.11.5)
+  - SwiftSocket
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - iosMath
+    - MyScriptInteractiveInk-Runtime
+    - SQLite.swift
+    - SwiftSocket
+
+EXTERNAL SOURCES:
+  MyScriptInteractiveInk-UIReferenceImplementation:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  MyScriptInteractiveInk-Runtime: 473fd867a34fe659c4f076052435bd887db42bfa
+  MyScriptInteractiveInk-UIReferenceImplementation: 20f34d04ac8b3aa2b26bcf857369224299420b9b
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+
+PODFILE CHECKSUM: 115c497a53b4cdcd1c6be72c66adcc8c8dd481cf
+
+COCOAPODS: 1.5.0

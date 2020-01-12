@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/RayanTejuja/Desktop/MathTouch/MathTouchUnified/MathTouch_Unified/build/Debug-iphoneos/SwiftSocket/SwiftSocket.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/RayanTejuja/Desktop/MathTouch/MathTouchUnified/MathTouch_Unified/build/Pods.build/Debug-iphoneos/SwiftSocket.build/unextended-module.modulemap',
+    }]
+  }]
+}

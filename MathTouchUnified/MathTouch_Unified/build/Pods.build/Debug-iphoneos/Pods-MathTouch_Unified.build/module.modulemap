@@ -1,0 +1,6 @@
+framework module Pods_MathTouch_Unified {
+  umbrella header "Pods-MathTouch_Unified-umbrella.h"
+
+  export *
+  module * { export * }
+}
